@@ -13,3 +13,6 @@ GOBUILD_CGO=$(GO_CGO) build -ldflags '$(LDFLAGS)'
 
 empty:
 	$(GOBUILD) -o bin/empty empty_case/*.go
+
+all-time:
+	$(GOBUILD) -o bin/all-time all_time/*.go
